@@ -1,6 +1,10 @@
-package: github.com/YaoshiHu/jeager-opentracing
+package: github.com/YaoshiHu/jaeger-opentracing
 import:
 - package: github.com/opentracing/opentracing-go
   version: v1.0.2
   subpackages:
   - log
+- package: github.com/uber/jaeger-client-go
+  version: v2.14.0
+  subpackages:
+  - config
