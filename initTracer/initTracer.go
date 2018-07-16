@@ -2,7 +2,7 @@ package initTracer
 
 import (
 	"fmt"
-	"os"
+	"io"
 
 	opentracing "github.com/opentracing/opentracing-go"
 	jaeger "github.com/uber/jaeger-client-go"
