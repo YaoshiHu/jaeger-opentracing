@@ -15,12 +15,12 @@ func main() {
 
 	span.LogFields(
 		log.String("event", "Hello Begin"),
-	}
+	)
 
 	fmt.Println("Hello World")
 
 	span.LogFields(
 		log.String("event", "Hello End"),
-	}
+	)
 
 }
