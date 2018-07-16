@@ -1,5 +1,5 @@
 hash: e1e1d6080a7849ad79280907d828a54031c1f3e370bb09c6f950029ab4ec7615
-updated: 2018-07-15T22:46:12.823828099-04:00
+updated: 2018-07-15T22:55:13.37566-04:00
 imports:
 - name: github.com/codahale/hdrhistogram
   version: 3a0bb77429bd3a61596f5e8a3172445844342120
@@ -33,7 +33,7 @@ imports:
   subpackages:
   - metrics
 - name: golang.org/x/net
-  version: db08ff08e8622530d9ed3a0e8ac279f6d4c02196
+  version: d0887baf81f4598189d4e12a37c6da86f0bba4d0
   subpackages:
   - context
 testImports: []
