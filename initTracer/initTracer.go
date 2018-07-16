@@ -12,12 +12,12 @@ import (
 // SimpleTracer returns an instance of Jaeger Tracer sampling all spans, same as the one in the tutorial
 func SimpleTracer(service string) (opentracing.Tracer, io.Closer) {
 	cfg := &config.Configuration{
-		Sampler: &config.SampleConfig{
+		Sampler: &config.SamplerConfig{
 			Type: "const",
 			Param: 1,
 		},
 		Reporter: &config.ReporterConfig{
-			LogSpan: true,
+			LogSpans: true,
 		},
 	}
 	tracer, closer, err := cfg.New(service, config.Logger(jaeger.StdLogger))
